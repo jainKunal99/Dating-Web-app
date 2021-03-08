@@ -1,0 +1,20 @@
+.header{
+
+    display: flex;
+    align-items: center;    /*Aligns items horizontally on a straight line*/
+    justify-content: space-between; /*Leaves equal space between all items in a row*/
+    z-index: 100; /*Allows the parent container to be in top no matter how long the page is*/
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.header__image{
+
+    object-fit: contain;
+    height: 40px;
+}
+
+.header__icon{
+
+    padding: 20px;
+
+}
